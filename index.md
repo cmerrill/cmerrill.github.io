@@ -14,7 +14,7 @@ layout: default
     <h2>Contact</h2>
     <ul class="contact-list">
       <li><strong>Email:</strong> <a href="mailto:chris@notspelledright.com">chris@notspelledright.com</a></li>
-      <li><strong>LinkedIn:</strong> <a href="http://linkedin.com/in/christopher-merrill-45889838/">christopher-merrill-45889838</a></li>
+      <li><strong>LinkedIn:</strong> <a href="http://linkedin.com/in/christopher-merrill-45889838/">Chris Merrill</a></li>
       <li><strong>GitHub:</strong> <a href="https://github.com/cmerrill">cmerrill</a></li>
     </ul>
   </section>

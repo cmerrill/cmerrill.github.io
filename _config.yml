@@ -1,7 +1,7 @@
 # Site settings
 title: notspelledright
 email: chris@notspelledright.com
-description: Personal website of Christopher Merrill
+description: Chris Merrill's personal website
 baseurl: "" # for cmerrill.github.io (root domain)
 url: "https://cmerrill.github.io"
 
