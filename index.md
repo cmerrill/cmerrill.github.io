@@ -27,11 +27,9 @@ layout: default
       When I'm not working on electronics and embedded systems, I enjoy cycling and spending time with my dogs.
     </p>
 
-    <h3>Projects</h3>
+    <h3>Cute lil' Projects</h3>
     <ul class="project-list">
-      <li>Personal electronics and hardware projects</li>
-      <li>Open source contributions</li>
-      <li>Home automation experiments</li>
+      <li>Strava <a href="https://strava.bearhugs.me">Group Event Calendar</a></li>
     </ul>
   </section>
 </div>
