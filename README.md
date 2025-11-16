@@ -1,6 +1,6 @@
 # notspelledright.com
 
-Personal website of Christopher Merrill, built with Jekyll and hosted on GitHub Pages.
+Personal website of Chris Merrill, built with Jekyll and hosted on GitHub Pages.
 
 ## Features
 
