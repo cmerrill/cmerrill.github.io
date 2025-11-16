@@ -24,7 +24,7 @@ layout: default
 
     <h3>Hobbies</h3>
     <p>
-      When I'm not working on electronics and embedded systems, I enjoy cycling and spending time with my dogs.
+      When I'm not working on electronics and embedded systems, I enjoy cycling, woodworking, and spending time with my dog doing agility.
     </p>
 
     <h3>Cute lil' Projects</h3>
