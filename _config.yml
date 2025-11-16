@@ -1,0 +1,22 @@
+# Site settings
+title: notspelledright
+email: chris@notspelledright.com
+description: Personal website of Christopher Merrill
+baseurl: "" # for cmerrill.github.io (root domain)
+url: "https://cmerrill.github.io"
+
+# Social links
+linkedin_username: christopher-merrill-45889838
+github_username: cmerrill
+
+# Build settings
+theme: minima
+markdown: kramdown
+
+# Exclude files from build
+exclude:
+  - old/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/

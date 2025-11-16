@@ -1,0 +1,166 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Custom orange theme based on old notspelledright.com design */
+
+/* Color variables */
+$orange-primary: #F18D05;
+$text-gray: #616161;
+$text-black: #000;
+
+/* Typography - Using similar fonts to old site */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: $text-black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu', sans-serif;
+  color: $text-black;
+}
+
+/* Container - max width like old site */
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Links - orange on hover like old site */
+a {
+  color: $text-black;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: $orange-primary;
+    border-bottom-color: $orange-primary;
+  }
+}
+
+/* Site header customization */
+.site-header {
+  border-top: 5px solid $orange-primary;
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 55.95px;
+  position: relative;
+}
+
+.site-title {
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 54px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  font-family: 'Ubuntu', sans-serif;
+
+  &:hover {
+    color: $orange-primary;
+  }
+}
+
+/* Main content sections */
+.home {
+  section {
+    margin-bottom: 3em;
+    padding-bottom: 2em;
+    border-bottom: 3px solid $orange-primary;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.5em;
+      color: $text-black;
+    }
+
+    h2 {
+      font-size: 2em;
+      margin-bottom: 0.5em;
+      color: $text-black;
+      border-bottom: 3px solid $orange-primary;
+      padding-bottom: 0.3em;
+    }
+
+    h3 {
+      font-size: 1.3em;
+      color: $text-gray;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 400;
+      margin-top: 1.5em;
+      margin-bottom: 0.5em;
+    }
+  }
+}
+
+/* Contact list styling */
+.contact-list {
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    margin-bottom: 0.8em;
+    font-size: 1.1em;
+
+    a {
+      color: $text-black;
+
+      &:hover {
+        color: $orange-primary;
+      }
+    }
+  }
+}
+
+/* Project list styling */
+.project-list {
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    margin-bottom: 0.8em;
+    padding-left: 1.5em;
+    position: relative;
+
+    &:before {
+      content: "▸";
+      color: $orange-primary;
+      font-size: 1.2em;
+      position: absolute;
+      left: 0;
+      top: -0.1em;
+    }
+  }
+}
+
+/* Responsive design like old site */
+@media screen and (max-width: 600px) {
+  .home section {
+    h1 {
+      font-size: 2em;
+    }
+
+    h2 {
+      font-size: 1.5em;
+    }
+  }
+}
+
+/* Footer styling */
+.site-footer {
+  border-top: 1px solid #e8e8e8;
+  padding: 30px 0;
+
+  .footer-heading {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+}
