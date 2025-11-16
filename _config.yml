@@ -10,11 +10,10 @@ linkedin_username: christopher-merrill-45889838
 github_username: cmerrill
 
 # Build settings
-remote_theme: jekyll/minima
+theme: minima
 markdown: kramdown
 plugins:
   - jekyll-seo-tag
-  - jekyll-remote-theme
 
 # Exclude files from build
 exclude:
